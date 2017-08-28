@@ -1,0 +1,13 @@
+{
+  "apps" : [{
+    "name"        : "haibu-smart",
+    "script"      : "server/server.js",
+    "watch"       : true,
+    "env": {
+      "NODE_ENV": "local"
+    },
+    "env_production" : {
+       "NODE_ENV": "production"
+    }
+  }]
+}
