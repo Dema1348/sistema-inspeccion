@@ -1,6 +1,6 @@
 {
   "apps" : [{
-    "name"        : "haibu-smart",
+    "name"        : "sistema-inspeccion",
     "script"      : "server/server.js",
     "watch"       : true,
     "env": {
